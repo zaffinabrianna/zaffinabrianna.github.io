@@ -1,0 +1,343 @@
+header
+{
+  font-family: "Brush Script MT", cursive; 
+  color: #b8cdff;
+}
+
+/*Bar containg header and meets with nav*/
+.bluebar
+{
+	text-align: center;
+	background-color: #e8efff;
+	overflow: hidden;
+}
+	
+/*Logo*/
+.logo
+{
+	float: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*Top Navigation*/
+.topnav
+{
+  text-align: center;
+  background-color: #abc8ff;
+  overflow: hidden;
+  font-family: "Brush Script MT", cursive;
+  padding: 10px;
+  
+}
+
+.topnav a
+{
+  color: #e8f0ff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover
+{
+  color: #70a2ff;
+}
+
+main
+{
+	background-color: #f5f8ff;
+	overflow: hidden;
+	border-top: 2px solid #abc8ff;
+	border-left: 1px solid #abc8ff;
+	border-right: 1px solid #abc8ff;
+}
+
+h1 
+{
+	font-family: "Brush Script MT", cursive; 
+	color: #b8cdff;
+	padding-right: 120px;
+	padding-top: 10px;
+}
+	
+h2
+{
+	text-align: center;
+	color: #91b7ff;
+	font-family: "Brush Script MT", cursive;
+}
+
+p
+{
+	font-family: "Brush Script MT", cursive;
+	color: #91b7ff;
+	font-size: 17px;
+}
+
+p a
+{
+	color:#2e63c7;
+}
+
+p a:hover
+{
+	color:#6298fc;
+}
+
+/*padding for paragraph*/
+.parpadding
+{
+	padding-right: 50px;
+	padding-left: 250px;
+}
+
+.leftside
+{
+	float: left;
+	width: 50%;
+}
+
+.rightside
+{
+	float: right;
+	width: 50%;
+}
+
+/*Image Hover*/
+.container
+{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-width: 4px;
+	border-style: dotted;
+	border-color: #6298fc;
+
+}
+.image
+{
+	display:block;
+}
+
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #91b7ff;
+}
+
+.container:hover .overlay
+{
+	opacity: 1;
+}
+
+.text
+{
+	color:#2e63c7;
+	font-size: 17px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: "Brush Script MT", cursive; 
+}
+
+/*image hover rightside*/
+.hoverpadding
+{
+	padding-bottom: 20px;
+	padding-left: 150px;
+}
+
+
+/*Split Into Columns for About Us*/
+.column
+{
+	float: left;
+	width: 50%;
+}
+
+.colleftpadding
+{
+	padding-left: 100px;
+}
+
+.card
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+	border-style: dotted;
+	border-width: 4px;
+	border-color: #2e63c7;
+	background-color: white;
+	
+}
+
+.cardcontainer
+{
+	padding: 0 16px;
+}
+
+.nametitle
+{
+	background-color: #abc8ff;
+	padding: 10px;
+	color: #e8f0ff;
+	font-size: 30px;
+	font-family: "Brush Script MT", cursive; 
+	text-align: center;
+}
+
+.descriptionbox
+{
+	text-align: center;
+	background-color: #e8efff;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.row:after
+{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+.imagecenter
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.padding250
+{
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+/*contact us section*/
+input[type=text], select, textarea
+{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color: #e8efff;
+	color: #709bff;
+	font-family: "Brush Script MT", cursive; 
+}
+
+input[type=submit]
+{
+	background-color:#6298fc;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: "Brush Script MT", cursive; 
+	color: #d4e3ff;
+}
+
+input[type=submit]:hover
+{
+	background-color: #4284ff;
+	color: #c2d7ff;
+}
+
+.contactcontainer
+{
+	border-radius: 5px;
+	background-color: #abc8ff;
+	padding: 20px;
+	font-family: "Brush Script MT", cursive; 
+	color: #699dff;
+	border-style: dotted;
+	border-width: 4px;
+	border-color: #6298fc;
+}
+
+/*contact us padding*/
+.contactpadding
+{
+	padding-top: 20px;
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-bottom: 20px;
+}
+
+/*portfolio*/
+.masonry
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: masonry;
+	gap: 10px;
+	padding-right: 100px;
+	padding-left: 130px;
+	flex-flow: row wrap;
+}
+
+figure
+{
+	margin: 0;
+	display: grid;
+	grid-template-rows: 1fr auto;
+	padding-bottom: 20px;
+}
+
+figure > img
+{
+	grid-row: 1 / -1;
+	grid-column: 1;
+}
+
+.imageitem
+{
+	background: #fff;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+}
+
+	
+footer 
+{ 
+	background-color: #e8efff;
+    font-size: 1em;
+    font-style: italic;
+	padding: 1em;
+	text-align: center;
+	border-top: 2px solid #abc8ff;
+	border-bottom: 2px solid #abc8ff;
+	border-left: 1px solid #abc8ff;
+	border-right: 1px solid #abc8ff;
+}
+  
