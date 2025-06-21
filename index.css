@@ -51,7 +51,9 @@ header
 {
 	.topnav
 	{
+		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 }
 
@@ -319,6 +321,13 @@ input[type=submit]:hover
 	padding-right: 250px;
 	padding-left: 250px;
 	padding-bottom: 20px;
+}
+@media screen and (max-width: 768px)
+{
+	.contactpadding
+	{
+		padding: 0 5%;
+	}
 }
 
 /*portfolio*/
