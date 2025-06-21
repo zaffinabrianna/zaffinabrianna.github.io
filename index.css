@@ -255,7 +255,8 @@ p a:hover
 
 .padding250
 {
-	padding: 0 15%;
+	padding-left: 250px;
+	padding-right: 250px;
 }
 @media screen and (max-width: 768px)
 {
