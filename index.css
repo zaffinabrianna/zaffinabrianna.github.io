@@ -1,3 +1,9 @@
+/* Ensuring padding does not break the layout of the website*/
+*
+{
+	box-sizing: border-box;
+}
+
 header
 {
   font-family: "Brush Script MT", serif; 
@@ -40,6 +46,13 @@ header
   padding: 20px;
   text-decoration: none;
   font-size: 17px;
+}
+@media screen and (max-width: 600px)
+{
+	.topnav
+	{
+		flex-direction: column;
+	}
 }
 
 .topnav a:hover
@@ -170,6 +183,14 @@ p a:hover
 	float: left;
 	width: 50%;
 }
+@media screen and (max-width: 768px)
+{
+	.column 
+	{
+		width: 100%;
+		float: none;
+	}
+}
 
 .colleftpadding
 {
@@ -234,8 +255,14 @@ p a:hover
 
 .padding250
 {
-	padding-left: 250px;
-	padding-right: 250px;
+	padding: 0 15%;
+}
+@media screen and (max-width: 768px)
+{
+	.padding250
+	{
+		padding: 0 5%;
+	}
 }
 
 /*contact us section*/
@@ -303,6 +330,14 @@ input[type=submit]:hover
 	padding-right: 100px;
 	padding-left: 130px;
 	flex-flow: row wrap;
+}
+@media screen and (max-width: 768px)
+{
+	.masonry 
+	{
+		grid-template-columns: repeat(1, 1fr);
+		padding: 0 5%;
+	}
 }
 
 figure
