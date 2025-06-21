@@ -1,9 +1,3 @@
-/* Ensuring padding does not break the layout of the website*/
-*
-{
-	box-sizing: border-box;
-}
-
 header
 {
   font-family: "Brush Script MT", serif; 
@@ -46,15 +40,6 @@ header
   padding: 20px;
   text-decoration: none;
   font-size: 17px;
-}
-@media screen and (max-width: 600px)
-{
-	.topnav
-	{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
 }
 
 .topnav a:hover
@@ -126,9 +111,8 @@ p a:hover
 .container
 {
 	position: relative;
-	width: 100px;
-	max-width: 500px;
-	aspect-ratio: 1 / 1;
+	width: 500px;
+	height: 500px;
 	border-width: 4px;
 	border-style: dotted;
 	border-color: #6298fc;
@@ -137,10 +121,6 @@ p a:hover
 .image
 {
 	display:block;
-	max-width: 100%;
-	max-height: 100%;
-	width: auto;
-	height: auto;
 }
 
 .overlay
@@ -189,14 +169,6 @@ p a:hover
 {
 	float: left;
 	width: 50%;
-}
-@media screen and (max-width: 768px)
-{
-	.column 
-	{
-		width: 100%;
-		float: none;
-	}
 }
 
 .colleftpadding
@@ -265,13 +237,6 @@ p a:hover
 	padding-left: 250px;
 	padding-right: 250px;
 }
-@media screen and (max-width: 768px)
-{
-	.padding250
-	{
-		padding: 0 5%;
-	}
-}
 
 /*contact us section*/
 input[type=text], select, textarea
@@ -327,13 +292,6 @@ input[type=submit]:hover
 	padding-left: 250px;
 	padding-bottom: 20px;
 }
-@media screen and (max-width: 768px)
-{
-	.contactpadding
-	{
-		padding: 0 5%;
-	}
-}
 
 /*portfolio*/
 .masonry
@@ -345,14 +303,6 @@ input[type=submit]:hover
 	padding-right: 100px;
 	padding-left: 130px;
 	flex-flow: row wrap;
-}
-@media screen and (max-width: 768px)
-{
-	.masonry 
-	{
-		grid-template-columns: repeat(1, 1fr);
-		padding: 0 5%;
-	}
 }
 
 figure
