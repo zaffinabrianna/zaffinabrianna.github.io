@@ -1,6 +1,6 @@
 header
 {
-  font-family: "Brush Script MT", cursive; 
+  font-family: 'Trebuchet MS', sans-serif; 
   color: #b8cdff;
 }
 
@@ -28,7 +28,7 @@ header
   text-align: center;
   background-color: #abc8ff;
   overflow: hidden;
-  font-family: "Brush Script MT", cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   padding: 10px;
   
 }
@@ -58,7 +58,7 @@ main
 
 h1 
 {
-	font-family: "Brush Script MT", cursive; 
+	font-family: 'Trebuchet MS', sans-serif;
 	color: #b8cdff;
 	padding-right: 120px;
 	padding-top: 10px;
@@ -68,12 +68,12 @@ h2
 {
 	text-align: center;
 	color: #91b7ff;
-	font-family: "Brush Script MT", cursive;
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 p
 {
-	font-family: "Brush Script MT", cursive;
+	font-family:'Trebuchet MS', sans-serif;
 	color: #91b7ff;
 	font-size: 17px;
 }
@@ -153,7 +153,7 @@ p a:hover
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: "Brush Script MT", cursive; 
+	font-family: 'Trebuchet MS', sans-serif; 
 }
 
 /*image hover rightside*/
@@ -198,7 +198,7 @@ p a:hover
 	padding: 10px;
 	color: #e8f0ff;
 	font-size: 30px;
-	font-family: "Brush Script MT", cursive; 
+	font-family: 'Trebuchet MS', sans-serif; 
 	text-align: center;
 }
 
@@ -251,7 +251,7 @@ input[type=text], select, textarea
 	resize: vertical;
 	background-color: #e8efff;
 	color: #709bff;
-	font-family: "Brush Script MT", cursive; 
+	font-family: 'Trebuchet MS', sans-serif; 
 }
 
 input[type=submit]
@@ -277,7 +277,7 @@ input[type=submit]:hover
 	border-radius: 5px;
 	background-color: #abc8ff;
 	padding: 20px;
-	font-family: "Brush Script MT", cursive; 
+	font-family: 'Trebuchet MS', sans-serif;
 	color: #699dff;
 	border-style: dotted;
 	border-width: 4px;
